@@ -1,5 +1,6 @@
-# name-all-the-numbers
+# polyglot-numbers
 > **NOTE!**
+
 > This is a fork of the `name-it` package, originally intended for the English language only.
 > I've modularized it to support multiple languages!
 

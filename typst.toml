@@ -1,5 +1,5 @@
 [package]
-name = "name-all-the-numbers"
+name = "polyglot-numbers"
 version = "0.1.0"
 authors = ["RubixDev (Original Creator!)", "IrregularPersona"]
 entrypoint = "lib.typ"

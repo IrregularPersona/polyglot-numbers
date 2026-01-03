@@ -1,5 +1,5 @@
-#import "languages/en.typ" as en
-#import "languages/id.typ" as id
+#import "languages/en.typ" 
+#import "languages/id.typ" 
 
 #let languages = (
   "en": en.lang-config,
