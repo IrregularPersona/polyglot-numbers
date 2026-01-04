@@ -10,7 +10,7 @@ Get the names of integers in any language!
 ### In English!
 ![Example](./examples/example-en.png)
 ```typ
-#import "@preview/name-all-the-numbers:0.1.0": name-it
+#import "@preview/polyglot-numbers:0.1.0": name-it
 #set page(width: auto, height: auto, margin: 1cm)
 
 === English
@@ -35,7 +35,7 @@ Get the names of integers in any language!
 ### In Indonesian!
 ![Indonesian](./examples/example-id.png)
 ```typ
-#import "@preview/name-all-the-numbers:0.1.0": name-it
+#import "@preview/polyglot-numbers:0.1.0": name-it
 #set page(width: auto, height: auto, margin: 1cm)
 
 === Indonesian
