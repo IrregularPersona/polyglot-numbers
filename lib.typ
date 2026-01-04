@@ -65,6 +65,7 @@
       parts.push((
         text: group-text,
         scale: scale-idx,
+        digits: group-digits,
       ))
     }
   }
