@@ -1,14 +1,18 @@
 #import "languages/en.typ"
-#import "languages/id.typ"
 #import "languages/fr.typ"
+#import "languages/id.typ"
+#import "languages/it.typ"
 #import "languages/my.typ"
+#import "languages/ru.typ"
 
 
 #let languages = (
   "en": en.lang-config,
   "fr": fr.lang-config,
   "id": id.lang-config,
+  "it": it.lang-config,
   "my": my.lang-config,
+  "ru": ru.lang-config,
 )
 
 #let name-it(num, lang: "en", ..options) = {
