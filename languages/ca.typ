@@ -18,14 +18,23 @@
   "",
   "mil",
   "milió",
+  "mil milions",
   "bilió",
+  "mil bilions",
   "trilió",
+  "mil trilions"
   "quadrilió",
+  "mil quadrilions",
   "quintilió",
+  "mil quintilions",
   "sextilió",
+  "mil sextilions",
   "septilió",
+  "mil septilions",
   "octilió",
+  "mil octilions",
   "nonilió",
+  "mil nonilions",
   "decilió"
 )
 
@@ -86,7 +95,7 @@
     if part.scale > 0 {
       let scale-name = scale-names.at(part.scale)
 
-      if part.scale == 1 and text == "un" {  
+      if text == "un" and scale-name.starts-with("mil") {  
         text = scale-name // En català diem "mil" no pas "un mil"
       } else {
         if part.scale >= 2 and text != "un" {
